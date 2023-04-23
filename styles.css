@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Kalam&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Kalam:wght@700&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+  font-family: 'Kalam', cursive;
+  /*font-family: Helvetica, sans-serif;*/
+}
+
+main {
+  background-color: rgb(238, 218, 203);
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+font-family: 'Sedgwick Ave Display', cursive;
+  margin-top: 30px;
+  margin-bottom:-1px;
+  font-size: 70px;
+}
+
+#subtitle{
+font-size: 16px;
+font-weight: bold;
+margin: 20px 0px 0px 0px;}
+
+#mahim {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;}
+
+
+header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(239, 144, 85);
+
+}
+
+
+#img-div {
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgb(57, 68, 77);
+  border: 10px rgba(0, 0, 0, 0.5) solid;
+
+}
+
+#img-div > #image {
+  display: block;
+  margin: 50px auto;
+  width: 70%;
+  max-width: 70%;
+  height: auto;
+  background-color: rgb(57, 68, 77);
+  filter: drop-shadow(1px 10px 50px #6bafd6);
+  border: 3px rgba(0, 0, 0, 0.3) solid;
+
+}
+
+#img-div > #img-caption {
+  width: 100%;
+  margin: -40px 0px 5px 0px ;
+  padding: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(57, 68, 77);
+  color: white;
+
+}
+
+#tribute-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+#tribute-info > h3 {
+  width: 65%;
+  margin: 30px auto;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+span{
+  font-weight: bold;
+}
+
+#tribute-info > div > ul > li {
+  width: 50%;
+  margin: 20px auto;
+  line-height: 30px;
+}
+
+#story{
+  width: 60%;
+  margin: 20px auto;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  }
+  
+  .gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  }
+  
+  .gallery::after {
+  content: "";
+  width: auto;
+  }
+q {
+  margin: 30px 0 0 0;
+  width: 65%;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+footer {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;}
+
+a {
+  cursor: pointer;
+  color: rgb(239, 144, 85);
+  ;
+}
